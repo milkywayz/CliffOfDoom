@@ -1,6 +1,19 @@
-*.class
-*.DS_Store
-# Package Files #
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+dependency-reduced-pom.xml
+
 *.jar
-*.war
-*.ear
